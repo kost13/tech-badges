@@ -1,0 +1,3 @@
+[submodule "config/linguist"]
+	path = config/linguist
+	url = git@github.com:github/linguist.git
