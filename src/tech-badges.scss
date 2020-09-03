@@ -1,0 +1,10 @@
+@import "technologies.yml";
+
+@each $lang in map-keys($Languages) {
+    $lang-name: to-lower-case(#{$lang});
+
+    .tb-#{$lang-name} {
+        $color: map-get(map-get($Languages, $lang), "color");
+        color: "#{$color}";
+    }
+}
