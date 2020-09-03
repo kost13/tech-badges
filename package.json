@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/kost13/tech-badges#readme",
   "dependencies": {
+    "js-yaml": "^3.14.0",
     "node-sass": "^4.14.1",
     "node-sass-yaml-importer": "^4.0.1"
   }
