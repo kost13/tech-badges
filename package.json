@@ -1,0 +1,27 @@
+{
+  "name": "tech-badges",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/tech-badges.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/node-sass --importer node_modules/node-sass-yaml-importer/dist/node-sass-yaml-importer.js --recursive ./src --output ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kost13/tech-badges.git"
+  },
+  "keywords": [
+    "badges"
+  ],
+  "author": "Adam Napieralski, Lukasz Kostrzewa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kost13/tech-badges/issues"
+  },
+  "homepage": "https://github.com/kost13/tech-badges#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "node-sass-yaml-importer": "^4.0.1"
+  }
+}

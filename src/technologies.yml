@@ -1,0 +1,25 @@
+Languages:
+  Angular:
+    color: "#dd0031"
+    url: "'https://angular.io/'"
+  Azure:
+    color: "#33a6dd"
+    url: "'https://azure.microsoft.com/'"
+  Django:
+    color: "#0c4b33"
+    url: "'https://www.djangoproject.com/'"
+  Docker:
+    color: "#35a0f0"
+    url: "'https://www.docker.com/'"
+  React:
+    color: "#61dafb"
+    url: "'https://reactjs.org/'"
+  Vue:
+    color: "#3fb984"
+    url: "'https://vuejs.org/'"
+  NodeJs:
+    color: "#80bd00"
+    url: "'https://nodejs.org'"
+  Npm:
+    color: "#c63737"
+    url: "'https://www.npmjs.com/'"
