@@ -1,27 +1,35 @@
 # Technologies that are not recognized by GitHub as programming languages
 # The list should be alphabetized
 
-Angular:
+angular:
     color: "#dd0031"
+    name: Angular
     url: https://angular.io/
-Azure:
+azure:
     color: "#33a6dd"
+    name: Azure
     url: https://azure.microsoft.com/
-Django:
+django:
     color: "#0c4b33"
+    name: Django
     url: https://www.djangoproject.com/
-Docker:
+docker:
     color: "#35a0f0"
+    name: Docker
     url: https://www.docker.com/
-React:
+react:
     color: "#61dafb"
+    name: React
     url: https://reactjs.org/
-Vue:
+vuejs:
     color: "#3fb984"
+    name: VueJs
     url: https://vuejs.org/
-NodeJs:
+nodejs:
     color: "#80bd00"
+    name: NodeJs
     url: https://nodejs.org
-Npm:
+npm:
     color: "#c63737"
+    name: Npm
     url: https://www.npmjs.com/

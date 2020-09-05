@@ -1,6 +1,7 @@
 # Operating systems
 # The list should be alphabetized
 
-Ubuntu:
+ubuntu:
     color: "#e95420"
+    name: Ubuntu
     url: https://ubuntu.com/
