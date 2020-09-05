@@ -3,7 +3,7 @@ const yaml = require('js-yaml');
 const preprocessor = require("./preprocess_github_languages");
 
 function generate_css_file(file_name, badge_name, badge_prefix){
-    var fileStream = fs.createWriteStream(file_name, { flags: 'w' })
+    var fileStream = fs.createWriteStream(file_name, { flags: 'w' });
 
     let github_languages_yml = "../config/linguist/lib/linguist/languages.yml";
     let technologies_yml = "../config/technologies.yml";
