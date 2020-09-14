@@ -839,5 +839,44 @@
 
 /* Operating Systems */
 
+/* Windows */ 
+.tb-windows { background-color: #0079D7; }
+
+/* Android */ 
+.tb-android { background-color: #A4C639; }
+
+/* iOS */ 
+.tb-ios { background-color: #3F3F3F; }
+
+/* macOS */ 
+.tb-macos { background-color: #CCCCCC; }
+
 /* Ubuntu */ 
 .tb-ubuntu { background-color: #e95420; }
+
+/* Mint */ 
+.tb-mint { background-color: #87CF3E; }
+
+/* openSUSE */ 
+.tb-opensuse { background-color: #74BB20; }
+
+/* Fedora */ 
+.tb-fedora { background-color: #294172; }
+
+/* Debian */ 
+.tb-debian { background-color: #C70036; }
+
+/* Manjaro */ 
+.tb-manjaro { background-color: #35BF5C; }
+
+/* Arch Linux */ 
+.tb-archlinux { background-color: #0F94D2; }
+
+/* Raspbian */ 
+.tb-raspbian { background-color: #C31C4A; }
+
+/* Solaris */ 
+.tb-solaris { background-color: #C74634; }
+
+/* CentOS */ 
+.tb-centos { background-color: #B091BC; }
