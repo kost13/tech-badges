@@ -3,13 +3,10 @@ const { JSDOM } = jsdom;
 
 const d3 = require('d3');
 const fs = require('fs');
-const yaml = require('js-yaml');
 const pixelWidth = require('string-pixel-width');
-const preprocessor = require("./preprocess_github_languages");
 
-const githubLanguagesYml = '../config/linguist/lib/linguist/languages.yml';
-let technologiesYml = '../config/technologies.yml';
-let osYml = '../config/operating_systems.yml';
+const { readYml, preprocessGithubLanguagesFile } = require('./utils');
+const configPaths = require('./config_files_paths.json');
 
 
 function generateSvg(tag, name, color, outputDirectory) {
@@ -38,24 +35,20 @@ function generateSvg(tag, name, color, outputDirectory) {
     fs.writeFileSync(`${outputDirectory}/tb_${tag}.svg`, body.html());
 }
 
-function readYml(file_path) {
-    let fileContents = fs.readFileSync(file_path, 'utf8');
-    return yaml.safeLoad(fileContents);
-}
-
 function generateAllSvgs(outputDirectory) {
-    for (const config of [
-        preprocessor.preProcessGithubLanguagesFile(githubLanguagesYml),
-        readYml(technologiesYml),
-        readYml(osYml)
-    ]) {
-        for (const tag in config) {
-            console.log(tag);
-            generateSvg(tag, config[tag].name, config[tag].color, outputDirectory);
+    for (const config of configPaths) {
+        let content;
+        if (config.name === 'GitHub Languages') {
+            content = preprocessGithubLanguagesFile(config.path);
+        } else {
+            content = readYml(config.path);
+        }
+        for (const tag in content) {
+            generateSvg(tag, content[tag].name, content[tag].color, outputDirectory);
         }
     }
 }
 
 if (require.main === module) {
-    generateAllSvgs('./svg');
+    generateAllSvgs('../dist/svgs');
 }
