@@ -4,7 +4,7 @@ const configPaths = require('./config_files_paths.json');
 
 
 function generateCssFile(fileName, badgeName, badgePrefix){
-    var fileStream = fs.createWriteStream(fileName, { flags: 'w' });
+    const fileStream = fs.createWriteStream(fileName, { flags: 'w' });
 
     // file header
     fileStream.write(header());
