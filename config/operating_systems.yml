@@ -1,6 +1,73 @@
 # Operating systems
 # The list should be alphabetized
 
-Ubuntu:
+windows:
+    color: "#0079D7"
+    name: Windows
+    url: https://www.microsoft.com/pl-pl/windows/
+
+android:
+    color: "#A4C639"
+    name: Android
+    url: https://www.android.com/
+
+ios:
+    color: "#3F3F3F"
+    name: iOS
+    url: https://www.apple.com/ios
+
+macos:
+    color: "#CCCCCC"
+    name: macOS
+    url: https://www.apple.com/macos
+
+ubuntu:
     color: "#e95420"
+    name: Ubuntu
     url: https://ubuntu.com/
+
+mint:
+    color: "#87CF3E"
+    name: Mint
+    url: https://linuxmint.com/
+
+opensuse:
+    color: "#74BB20"
+    name: openSUSE
+    url: https://www.opensuse.org/
+
+fedora:
+    color: "#294172"
+    name: Fedora
+    url: https://getfedora.org/
+
+debian:
+    color: "#C70036"
+    name: Debian
+    url: https://www.debian.org/
+
+manjaro:
+    color: "#35BF5C"
+    name: Manjaro
+    url: https://manjaro.org/
+
+archlinux:
+    color: "#0F94D2"
+    name: Arch Linux
+    url: https://www.archlinux.org/
+
+raspbian:
+    color: "#C31C4A"
+    name: Raspbian
+    url: https://www.raspbian.org/
+
+solaris:
+    color: "#C74634"
+    name: Solaris
+    url: https://www.oracle.com/solaris
+
+centos:
+    color: "#B091BC"
+    name: CentOS
+    url: https://www.centos.org/
+    

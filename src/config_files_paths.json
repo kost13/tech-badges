@@ -1,0 +1,14 @@
+[
+    {
+        "name": "GitHub Languages",
+        "path": "../config/linguist/lib/linguist/languages.yml"
+    },
+    {
+        "name": "Technologies",
+        "path": "../config/technologies.yml"
+    },
+    {
+        "name": "Operating Systems",
+        "path": "../config/operating_systems.yml"
+    }
+]
