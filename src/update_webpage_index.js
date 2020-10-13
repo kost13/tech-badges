@@ -26,8 +26,8 @@ function updateIndexFile(indexFile, badge_name, badge_prefix) {
 function header() {
     return "<!DOCTYPE html>\n\
 <html>\n<head>\n\
-<link rel=\"stylesheet\" href = \"assets/css/tech-badges.css\">\n\
-<link rel=\"stylesheet\" href = \"assets/css/style.css\">\n\
+<link rel=\"stylesheet\" href=\"assets/css/tech-badges.css\">\n\
+<link rel=\"stylesheet\" href=\"assets/css/style.css\">\n\
 </head>\n<body>\n<h1>Tech Badges</h1>\n";
 }
 

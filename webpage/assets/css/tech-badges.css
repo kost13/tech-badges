@@ -1,7 +1,7 @@
-/*
- Tech-badges
- https://github.com/kost13/tech-badges
- This file was generated automatically and shouldn't be modified manually.
+/**
+ * Tech-badges
+ * https://github.com/kost13/tech-badges
+ * This file was generated automatically and shouldn't be modified manually.
  */
 
 .badge {
@@ -17,7 +17,7 @@
      text-decoration: none;
      }
 
-/* GitHub languages */
+/* GitHub Languages */
 
 /* 1C Enterprise */ 
 .tb-1c_enterprise { background-color: #814CCC; }
