@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -r dist && mkdir dist && mkdir dist/svgs",
     "build": "npm run clean && cd src && node generate_css.js && node generate_svgs.js",
-    "update-webpage": "npm run build && cp dist/tech-badges.css webpage/assets/css/tech-badges.css"
+    "update-webpage": "npm run build && cd src && node update_webpage_index.js && cp ../dist/tech-badges.css ../webpage/assets/css/tech-badges.css"
   },
   "repository": {
     "type": "git",
