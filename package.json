@@ -1,8 +1,8 @@
 {
   "name": "tech-badges",
   "version": "0.1.0",
-  "description": "",
-  "main": "src/tech-badges.scss",
+  "description": "Lightweight package providing badges with technologies names as CSS classes and SVGs.",
+  "main": "dist/tech-badges.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -r dist && mkdir dist && mkdir dist/svgs",
@@ -16,7 +16,17 @@
   "keywords": [
     "badges"
   ],
-  "author": "Adam Napieralski, Lukasz Kostrzewa",
+  "contributors": [
+    {
+      "name": "Adam Napieralski",
+      "url": "http://adamnapieralski.github.io/"
+    },
+    {
+      "name": "Lukasz Kostrzewa",
+      "url": "http://kost13.github.io/"
+
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kost13/tech-badges/issues"
