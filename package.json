@@ -1,6 +1,6 @@
 {
   "name": "tech-badges",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lightweight package providing badges with technologies names as CSS classes and SVGs.",
   "main": "dist/tech-badges.css",
   "scripts": {
